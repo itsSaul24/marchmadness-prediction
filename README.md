@@ -7,36 +7,37 @@ We built several classification models (Logistic Regression, SVM, KNN, Random Fo
 
 ## 📁 Project Structure
 
+```text
 marchmadness-prediction/
 ├── README.md
 ├── .gitignore
 │
 ├── data/
-│ ├── final_predictions.csv # Model outputs on hold‑out set
-│ ├── training_data.csv # Data used to train models
-│ ├── val_data.csv # Validation split
-│ └── misc_data/ # All other raw/source datasets
-│ └── ...⁽⁾
+│   ├── final_predictions.csv    # Model outputs on hold‑out set
+│   ├── training_data.csv        # Data used to train models
+│   ├── val_data.csv             # Validation split
+│   └── misc_data/               # All other raw/source datasets
+│       └── ...
 │
 ├── notebooks/
-│ ├── 01_preprocessing1.ipynb
-│ ├── 02_preprocessing2.ipynb
-│ ├── 03_preprocessing3.ipynb
-│ ├── 04_preprocessing4.ipynb
-│ ├── 05_understanding1.ipynb
-│ ├── 06_understanding2.ipynb
-│ └── 07_modeling.ipynb
+│   ├── 01_preprocessing1.ipynb
+│   ├── 02_preprocessing2.ipynb
+│   ├── 03_preprocessing3.ipynb
+│   ├── 04_preprocessing4.ipynb
+│   ├── 05_understanding1.ipynb
+│   ├── 06_understanding2.ipynb
+│   └── 07_modeling.ipynb
 │
 ├── reports/
-│ ├── evaluation_report.pdf # Evaluation metrics & error analysis
-│ └── modeling_report.pdf # Modeling approach & results
+│   ├── evaluation_report.pdf    # Evaluation metrics & error analysis
+│   └── modeling_report.pdf      # Modeling approach & results
 │
 └── slides/
-├── 01_project_understanding.pdf
-├── 02_data_prep.pdf
-├── 03_modeling.pdf
-└── 04_conclusion.pdf
-
+    ├── 01_project_understanding.pdf
+    ├── 02_data_prep.pdf
+    ├── 03_modeling.pdf
+    └── 04_conclusion.pdf
+```
 ---
 
 ## 🚀 Getting Started

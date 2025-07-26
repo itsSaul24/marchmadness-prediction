@@ -13,24 +13,24 @@ marchmadness-prediction/
 ├── .gitignore
 │
 ├── data/
-│   ├── final_predictions.csv    # Model outputs on hold‑out set
-│   ├── training_data.csv        # Data used to train models
-│   ├── val_data.csv             # Validation split
-│   └── misc_data*/               # All other raw/source datasets
+│   ├── final_predictions.csv      # Model outputs on hold‑out set
+│   ├── training_data.csv          # Data used to train models
+│   ├── val_data.csv               # Validation split
+│   └── misc_data*/                # All other raw/source datasets
 │       └── ...
 │
 ├── notebooks/
-│   ├── 01_preprocessing1.ipynb
-│   ├── 02_preprocessing2.ipynb
-│   ├── 03_preprocessing3.ipynb
-│   ├── 04_preprocessing4.ipynb
-│   ├── 05_understanding1.ipynb
-│   ├── 06_understanding2.ipynb
-│   └── 07_modeling.ipynb
+│   ├── 01_preprocessing1.ipynb    # initial data cleaning and basic transformations
+│   ├── 02_preprocessing2.ipynb    # advanced feature engineering steps
+│   ├── 03_preprocessing3.ipynb    # handling missing values and outlier detection
+│   ├── 04_preprocessing4.ipynb    # final preprocessing pipeline and data export
+│   ├── 05_understanding1.ipynb    # exploratory data analysis and EDA visualizations
+│   ├── 06_understanding2.ipynb    # statistical analysis and correlation studies
+│   └── 07_modeling.ipynb          # model training, evaluation, and comparison
 │
 ├── reports/
-│   ├── evaluation_report.pdf    # Evaluation metrics & error analysis
-│   └── modeling_report.pdf      # Modeling approach & results
+│   ├── evaluation_report.pdf      # Evaluation metrics & error analysis
+│   └── modeling_report.pdf        # Modeling approach & results
 │
 └── slides/
     ├── 01_project_understanding.pdf

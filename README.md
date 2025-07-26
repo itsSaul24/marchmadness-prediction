@@ -16,7 +16,7 @@ marchmadness-prediction/
 │   ├── final_predictions.csv    # Model outputs on hold‑out set
 │   ├── training_data.csv        # Data used to train models
 │   ├── val_data.csv             # Validation split
-│   └── misc_data/               # All other raw/source datasets
+│   └── misc_data*/               # All other raw/source datasets
 │       └── ...
 │
 ├── notebooks/
@@ -42,7 +42,7 @@ marchmadness-prediction/
 
 ## 🚀 Getting Started
 
-> No installation or live execution required—this is a static snapshot of the analysis._
+> No installation or live execution required—this is a static snapshot of the analysis.
 
 1. **Browse Notebooks on GitHub**  
    - GitHub will render each notebook with its saved outputs.  
@@ -68,4 +68,4 @@ This work is released under the [MIT License](LICENSE).
 
 ---
 
-*(⁽⁾ “misc_data/” contains auxiliary datasets that were part of our feature‑engineering pipeline.)*  
+*(Note: “misc_data/” contains auxiliary datasets that were part of our feature‑engineering pipeline.)*  
